@@ -28,7 +28,7 @@
     <section class="hero container">
         <div class="eyebrow">Trusted Partner Infrastructure</div>
         <h1>Turn your AI platform accounts into a <span class="gradient">steady passive income stream</span>.</h1>
-        <p>Partner with Hexacore AI. We connect your Outlier or Handshake accounts to our vetted expert network, handle the operational work, and pay you a guaranteed 30% share of weekly revenue with zero effort required on your part.</p>
+        <p>Partner with Hexacore AI. We connect your Outlier or Handshake accounts to our vetted expert network, handle the operational work, and pay you a guaranteed 25% share of weekly revenue with zero effort required on your part.</p>
         <div class="hero-actions">
             <a href="#apply" class="btn" style="padding: 15px 32px; font-size: 1.05rem;">Apply to Become a Partner</a>
             <a href="#how-it-works" class="btn btn-secondary" style="padding: 15px 32px; font-size: 1.05rem;">How It Works</a>
@@ -37,7 +37,7 @@
 
         <div class="stats-row">
             <div class="stat">
-                <strong>30%</strong>
+                <strong>25%</strong>
                 <span>Guaranteed partner share</span>
             </div>
             <div class="stat">
@@ -129,7 +129,7 @@
                     <input type="number" id="revenue" value="1200" min="0">
                 </div>
                 <div class="mini-note">Hexacore Covers: Worker pay, software, proxies, and operational reserves.</div>
-                <div class="result">Your 30% Share: $<span id="payout">360.00</span></div>
+                <div class="result">Your 25% Share: $<span id="payout">300.00</span></div>
                 <p class="small-note">Paid directly to you in Naira at premium exchange rates.</p>
             </div>
         </div>
@@ -182,7 +182,7 @@
                     <h3>Revenue Split</h3>
                     <div class="price-row">
                         <span class="currency">$</span>
-                        <strong>30%</strong>
+                        <strong>25%</strong>
                         <span class="label">Partner share</span>
                     </div>
                     <ul class="pricing-list">
@@ -269,7 +269,7 @@
         revenueInput.addEventListener('input', function() {
             let revenue = parseFloat(this.value);
             if (isNaN(revenue) || revenue < 0) revenue = 0;
-            const payout = revenue * 0.30;
+            const payout = revenue * 0.25;
             payoutDisplay.textContent = payout.toFixed(2);
         });
 
